@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Documentation</title>
+</head>
+<body>
+  <b>
+  <%= functionName %>
+  </b>
+  :
+  <%= returnType %>
+  <ul>
+  <% params.forEach(function(param) { %>
+    <li><%= param.name %> : <%= param.type %></li>
+  <% }) %>
+  </ul>
+</body>
+</html>

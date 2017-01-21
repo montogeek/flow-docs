@@ -1,0 +1,18 @@
+{
+  "name": "flow-docs",
+  "version": "0.0.0",
+  "description": "Generate Flow docs",
+  "main": "index.js",
+  "repository": "https://github.com/montogeek/flow-docs",
+  "author": "Fernando Montoya <montogeek@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-preset-latest": "^6.22.0",
+    "babel-traverse": "^6.22.1",
+    "babel-types": "^6.22.0",
+    "babylon": "6.15.0",
+    "ejs": "^2.5.5",
+    "flow-parser": "^0.38.0"
+  }
+}
